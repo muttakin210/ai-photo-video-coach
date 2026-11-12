@@ -1,0 +1,121 @@
+{
+  "_note": "Platform rules from the project guide. Update these numbers when platforms change their specs - no code change needed. Verify against official Instagram/YouTube help pages before launch.",
+  "platforms": [
+    {
+      "id": "insta_post",
+      "name": "Instagram Feed Post",
+      "kind": "photo",
+      "width": 1080,
+      "height": 1350,
+      "ratio": "4:5",
+      "ratio_value": 0.8,
+      "max_video_seconds": 180,
+      "note": "4:5 portrait gives the best reach."
+    },
+    {
+      "id": "insta_square",
+      "name": "Instagram Square",
+      "kind": "photo",
+      "width": 1080,
+      "height": 1080,
+      "ratio": "1:1",
+      "ratio_value": 1.0,
+      "max_video_seconds": 180,
+      "note": "Classic square feed post."
+    },
+    {
+      "id": "insta_story",
+      "name": "Instagram Story",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 60,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "Each clip up to 60s. Keep text out of the safe zone."
+    },
+    {
+      "id": "insta_reels",
+      "name": "Instagram Reels",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 180,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "Up to 3 min. Keep key content in the center."
+    },
+    {
+      "id": "fb_feed",
+      "name": "Facebook Feed",
+      "kind": "both",
+      "width": 1080,
+      "height": 1350,
+      "ratio": "4:5",
+      "ratio_value": 0.8,
+      "max_video_seconds": 7200,
+      "note": "4:5 or 1:1 both work. Longer video is fine."
+    },
+    {
+      "id": "fb_story",
+      "name": "Facebook Story",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 20,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "Up to 20s per story."
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube Video",
+      "kind": "both",
+      "width": 1920,
+      "height": 1080,
+      "ratio": "16:9",
+      "ratio_value": 1.7778,
+      "max_video_seconds": 43200,
+      "note": "Landscape 16:9. Long videos welcome."
+    },
+    {
+      "id": "youtube_shorts",
+      "name": "YouTube Shorts",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 180,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "Vertical, up to 3 min."
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 600,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "Vertical. Can be long."
+    },
+    {
+      "id": "whatsapp_status",
+      "name": "WhatsApp Status",
+      "kind": "both",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "ratio_value": 0.5625,
+      "max_video_seconds": 30,
+      "safe_zone": { "top": 250, "bottom": 340 },
+      "note": "30s per status."
+    }
+  ]
+}
